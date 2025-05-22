@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+
+            gap: 10px;
+
+            text-align: center;
+
+            border: 1px solid black;
+
+            border-radius: 50%;
+
+
+        }
+
+
+        header {
+            background-color: rgb(99, 99, 207);
+
+        }
+
+        nav {
+            background-color: rgb(197, 101, 101);
+        }
+
+        section {
+            background-color: rgb(203, 203, 103);
+        }
+
+        aside {
+            background-color: rgb(192, 153, 80);
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        article {
+            background-color: rgb(160, 96, 220);
+
+        }
+
+        footer {
+            background-color: rgb(101, 205, 101);
+        }
+
+        .parent2 {
+            display: flex;
+            gap: 10px;
+        }
+
+        .combined-one {
+            width: 50%;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="parent">
+
+        <header>
+            header
+        </header>
+        <nav>
+            nav
+        </nav>
+
+        <div class="parent2">
+
+
+            <div class="combined-one">
+                <section style="margin-bottom: 10px;">
+                    section
+                </section>
+
+                <article>
+                    article
+                </article>
+            </div>
+
+            <aside>
+
+                aside
+
+            </aside>
+
+        </div>
+
+        <footer>
+            footer
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box modal</title>
+    <style>
+        body {
+            /* background-color: red; */
+            /* margin: 0;
+            padding :0; */
+        }
+
+        .pClass {
+            border: 1px solid black;
+            font-size: 30px;
+            font-style: normal;
+            /* font-weight: 700; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: start;
+            background-color: black;
+            color: white;
+            /* width : 300px;
+            height: 100px; */
+            /* opacity: 0.2; */
+
+        }
+
+
+        .divTag {
+
+            width: 300px;
+        }
+
+
+        .cont1 {
+            width: 300px;
+            height: 100px;
+            background-color: red;
+
+        }
+
+        .cont2 {
+            width: 100px;
+            height: 50px;
+            background-color: blue;
+        }
+
+
+        .cont3 {
+            background-color: brown;
+        }
+
+
+        .cont4 {
+            background-color: black;
+            color: white;
+        }
+        /* .spanTag {
+
+        } */
+
+        /* block --- to take whole row
+
+        inline --- to take req amt of space
+
+        inline-block --- to add width and height to inline
+
+        flex --- alignment via x and y */
+
+        /* default position is x direction */
+
+        .parentCont {
+            /* display: flex;
+            justify-content: center;
+            align-items: end; */
+
+
+            /* height: 1000px; */
+
+            display: flex;
+
+            flex-direction: row;
+
+            align-items: center;
+
+            justify-content: end;
+
+
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <p class="pClass"> this box modal class</p>
+
+
+    <div>
+
+        <div class="pClass divTag">
+            this is div
+        </div>
+
+    </div>
+
+
+    <span class="pClass spanTag">
+        this is span
+    </span>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    // flex properties is used to manage the positions
+
+    <div class="parentCont">
+
+        <div class="cont1"> container 1</div>
+
+        <div class="cont2"> container 2</div>
+
+        <span class="cont3">container 3</span>
+
+        <span class="cont4">container 4</span>
+
+
+        <!-- <div class="cont1"> container 1</div>
+
+        <div class="cont2"> container 2</div> -->
+
+
+    </div>
+
+
+
+</body>
+
+</html>

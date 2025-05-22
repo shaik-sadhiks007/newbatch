@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        /* selectors */
+
+        /* 1.tag selector 
+
+            2. class selector --- grp of students
+
+            3. id selector --- unique --- use it for one tag only
+
+            4. universal selector
+        
+        */
+
+        /* body {
+            background-color: chocolate;
+            font-size: 50px;
+        } */
+
+        :root {
+            color: blue;
+            background-color: black;
+            font-size: 10px;
+
+        }
+
+        /* sass , less --- */
+
+
+        .div2 {
+            color: aqua;
+            background-color: brown;
+        }
+
+        #div3 {
+            color: rgb(0, 255, 0);
+            background-color: rgb(161, 15, 190);
+        }
+
+
+        span {
+            color: white !important;
+            background-color: black;
+        }
+
+        .spanTag {
+            color: red;
+            background-color: black;
+        }
+
+        .spanClass {
+            color: rgb(255, 225, 0);
+            background-color: black;
+        }
+
+        #spanId {
+            color: rgb(38, 0, 255);
+            background-color: black;
+        }
+
+        .childClass {
+            background-color: brown;
+        }
+
+
+        .child3 {
+            color: red;
+        }
+
+
+    </style>
+
+
+    <!--important > inner > id > class > tag > universal -->
+
+
+    <!-- <style>
+
+        selector
+
+
+    </style> -->
+
+</head>
+
+<body>
+
+
+    <!-- about css --- cascading style sheets  --- 3 ways we can use the css
+
+
+    1. inner css
+
+    2. internal css
+
+    3. external css
+
+
+    properties --- contains ---- color, name , logo
+
+    functions --- actions --- moving
+
+
+    uniqueness known as specificity
+
+    color : red,
+
+
+    
+    -->
+
+    // inner css
+
+    <p style="color : red ; background-color: greenyellow; font-size : 30px"> this is p tag</p>
+
+
+    // internal css
+
+    <div>this internal css properties</div>
+
+    <div class="div2">this is div 2 </div>
+
+    <div class="div2">this is div 2 </div>
+
+
+    <div id="div3">this is div 2 </div>
+
+
+
+    <span class="spanTag spanClass" id="spanId">
+
+        this is span tag
+
+    </span>
+
+
+    <div class="childClass">
+
+        <div>
+
+            <div class="child3">
+
+                child 3
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <p class="external-css">this is span tag using external css</p>
+
+
+
+
+
+</body>
+
+</html>
