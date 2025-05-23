@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .pClass {
+            display: inline;
+        }
+
+        span {
+            display: block;
+        }
+
+        #spanId {
+
+
+
+            width: 100px;
+
+            height: 100px;
+
+            background-color: blueviolet;
+
+
+        }
+
+        #divId {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+
+
+        #parent{
+            /* // to make childs in the same row */
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+
+
+            /* justify-content : center; 
+
+            align-items: end; */
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    html means not button structure ---- bones
+
+    colors, responsive, style, --- css
+
+
+    // which elements will take whole row knows as block elements
+    <p style="color: brown; border: 1px solid black; margin : 10px" class="pClass"> this is p tag </p>
+
+    // element which take req. amt of space known as inline elements
+    <span style="border: 1px solid black;">this is span tag</span>
+
+
+    <div id="parent">
+        <span id="spanId">span2</span>
+        <div id="divId">
+            div child
+        </div>
+
+    </div>
+
+</body>
+
+</html>
