@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+
+    <style>
+        
+        .parent {
+            width: 300px;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto auto auto;
+            gap: 10px;
+            padding: 10px;
+
+        }
+
+        header {
+            background-color: rgb(99, 99, 207);
+            grid-column: 1/3;    /* last index is excluded */
+
+
+        }
+
+        nav {
+            background-color: rgb(197, 101, 101);
+            grid-column: 1/3;
+        }
+
+        section {
+            background-color: rgb(203, 203, 103);
+            grid-column: 1/2;
+        }
+
+        aside {
+            background-color: rgb(192, 153, 80);
+            grid-column: 2/3;
+            grid-row: 3/5;
+
+
+        }
+
+        article {
+            background-color: rgb(160, 96, 220);
+            grid-column: 1/2;
+          
+        }
+
+        footer {
+            background-color: rgb(101, 205, 101);
+
+            grid-column: 1/3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- grid ----- at a time i can control both row and col -->
+
+    <!-- flex ----- display :  flex ---- row --- 1d -->
+
+
+    <div class="parent">
+
+        <header>
+            header
+        </header>
+
+        <nav>
+            nav
+        </nav>
+
+        <section>
+            section
+        </section>
+
+        <article>
+            article
+        </article>
+
+        <aside>
+
+            aside
+
+        </aside>
+
+
+        <footer>
+            footer
+        </footer>
+
+
+    </div>
+
+
+</body>
+
+</html>
